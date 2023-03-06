@@ -49,7 +49,9 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
               style: TextStyle(fontSize: 48.0),
             ),
           ),
-          Expanded(child: child)
+          Expanded(
+            child: Divider(),
+          )
         ],
       ),
     );
